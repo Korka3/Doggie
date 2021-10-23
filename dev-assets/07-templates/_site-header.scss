@@ -1,11 +1,4 @@
 .t-site-header {
-  &__top {
-    margin-top: auto;
-    flex-direction: column;
-    margin-bottom: $grid-base * 10;
-    min-height: 96px;
-  }
-
   &__logo {
     height: 43px;
     width: auto;
@@ -50,7 +43,6 @@
     border-radius: 10px;
     display: inline-flex;
     height: $grid-base * 6;
-    margin-top: -$grid-base * 2;
     width: 100%;
   }
 
@@ -73,18 +65,18 @@
       margin-left: -5px;
       position: absolute;
       text-align: center;
-      top: 107px;
+      top: -5px;
       width: 14px;
     }
   }
 
   &__nav-icon {
     margin: auto $grid-base;
+    position: relative;
   }
 
   &__row {
-    max-height: 68px;
-    margin-top: $grid-base * 2;
+    min-height: 96px;
   }
 
   &__hero {

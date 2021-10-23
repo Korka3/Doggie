@@ -187,12 +187,6 @@ a {
 .c-nav__unfold-item {
   left: 5px; }
 
-.t-site-header__top {
-  margin-top: auto;
-  flex-direction: column;
-  margin-bottom: 100px;
-  min-height: 96px; }
-
 .t-site-header__logo {
   height: 43px;
   width: auto;
@@ -230,7 +224,6 @@ a {
   border-radius: 10px;
   display: inline-flex;
   height: 60px;
-  margin-top: -20px;
   width: 100%; }
 
 .t-site-header__nav {
@@ -250,15 +243,15 @@ a {
     margin-left: -5px;
     position: absolute;
     text-align: center;
-    top: 107px;
+    top: -5px;
     width: 14px; }
 
 .t-site-header__nav-icon {
-  margin: auto 10px; }
+  margin: auto 10px;
+  position: relative; }
 
 .t-site-header__row {
-  max-height: 68px;
-  margin-top: 20px; }
+  min-height: 96px; }
 
 .t-site-header__hero {
   display: block;
