@@ -1,4 +1,10 @@
 .t-site-header {
+  background-image: url("../images/background.jpg");
+  background-position: center -67px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 720px;
+
   &__logo {
     height: 43px;
     width: auto;
