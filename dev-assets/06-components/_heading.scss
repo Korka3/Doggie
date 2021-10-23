@@ -1,0 +1,11 @@
+.c-heading {
+  color: $white;
+
+  &--level1 {
+    font-size: $font-size-1;
+    font-weight: 900;
+    line-height: $line-height-base * 0.8;
+    margin-top: $grid-base * 10;
+    margin-bottom: $grid-base * 4.5;
+  }
+}

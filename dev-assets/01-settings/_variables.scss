@@ -1,0 +1,44 @@
+// Kolory
+$white: #ffffff;
+$black: #000000;
+$green: #29c3be;
+$primary: #5d62b5;
+$accent: #f2726f;
+$gray-light: #f5f5f5;
+$gray-dark: #4b4b4b;
+$gray-very-dark: #1f1f22;
+$gray-muted: #1f1768;
+
+$cta-1: #dc4946;
+$cta-2: #f2726f;
+$cta-3: #ffc533;
+
+// Tekst
+$font-size-base: 1rem;
+$font-size-1: $font-size-base * 3.5; // ~56px
+$font-size-2: $font-size-base * 2.25; // ~36px
+$font-size-3: $font-size-base * 1.875; // ~30px
+$font-size-4: $font-size-base * 1.1875; // ~19px
+$font-size-5: $font-size-base * 1; // ~16px
+$font-size-6: $font-size-base * 0.875; // ~14px
+$font-size-7: $font-size-base * 0.75; // ~12px
+$font-size-8: $font-size-base * 0.625; // ~10px
+$font-size-9: $font-size-base * 0.5625; // ~9px
+
+$line-height-base: 1.5; // 24px
+$line-height-sm: 1.375; // 22px
+$line-height-lg: 2.625; //42px
+
+$letter-spacing-condensed: -0.1rem;
+$letter-spacing-1: 0.0625rem;
+
+// Siatka
+$grid-base: 10px;
+$gutter: $grid-base * 1.5;
+
+// Zaokroglenia
+$border-radius: $grid-base * 0.5;
+
+// Breakpoint
+$bp-medium: "800px";
+$bp-large: "1200px";

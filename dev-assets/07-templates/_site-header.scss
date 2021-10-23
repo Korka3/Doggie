@@ -1,0 +1,95 @@
+.t-site-header {
+  &__top {
+    margin-top: auto;
+    flex-direction: column;
+    margin-bottom: $grid-base * 10;
+    min-height: 96px;
+  }
+
+  &__logo {
+    height: 43px;
+    width: auto;
+    color: $accent;
+  }
+
+  &__top-item {
+    color: $white;
+    display: inline-flex;
+    flex-direction: column;
+    font-size: $font-size-7;
+    font-weight: bold;
+    line-height: $grid-base * 2.1;
+    letter-spacing: $letter-spacing-1;
+    text-align: left;
+  }
+
+  &__box {
+    align-items: baseline;
+    float: left;
+    margin-left: $grid-base;
+  }
+
+  &__icon {
+    margin-top: $grid-base * 0.5;
+    width: 20px;
+    height: 20px;
+    float: left;
+  }
+
+  &__col {
+    min-width: 240px;
+
+    &--mod {
+      margin-right: -$grid-base * 4;
+    }
+  }
+
+  &__menu {
+    align-items: center;
+    background-color: $white;
+    border-radius: 10px;
+    display: inline-flex;
+    height: $grid-base * 6;
+    margin-top: -$grid-base * 2;
+    width: 100%;
+  }
+
+  &__nav {
+    display: inline-flex;
+    justify-content: space-between;
+  }
+
+  &__nav-icons {
+    display: inline-flex;
+    justify-content: flex-end;
+    margin-right: $grid-base * 2;
+
+    &--number {
+      background-color: $accent;
+      border-radius: 50%;
+      color: $white;
+      font-size: $font-size-8;
+      line-height: 14px;
+      margin-left: -5px;
+      position: absolute;
+      text-align: center;
+      top: 107px;
+      width: 14px;
+    }
+  }
+
+  &__nav-icon {
+    margin: auto $grid-base;
+  }
+
+  &__row {
+    max-height: 68px;
+    margin-top: $grid-base * 2;
+  }
+
+  &__hero {
+    display: block;
+    max-width: 1440px;
+    padding-bottom: $grid-base * 5;
+  }
+}

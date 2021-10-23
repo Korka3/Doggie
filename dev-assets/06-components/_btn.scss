@@ -1,0 +1,35 @@
+.c-btn {
+  background-color: $accent;
+  border: none;
+  border-radius: $border-radius * 1.25;
+  color: $white;
+  font-size: $font-size-7;
+  font-weight: bold;
+  line-height: $line-height-base;
+  letter-spacing: $letter-spacing-1;
+  text-align: center;
+  text-transform: uppercase;
+  white-space: nowrap;
+
+  &:hover {
+    background-color: $cta-1;
+    color: $white;
+    text-decoration: none;
+    transition-duration: 0.5s;
+  }
+
+  &__header-top {
+    display: inline-block;
+    max-height: $grid-base * 4;
+    padding: $grid-base * 1.1 1rem;
+    text-align: center;
+    width: 100%;
+  }
+
+  &__header-hero {
+    max-height: $grid-base * 4.8;
+    max-width: $grid-base * 2.1;
+    padding: $grid-base * 1.4 4rem;
+    text-align: center;
+  }
+}

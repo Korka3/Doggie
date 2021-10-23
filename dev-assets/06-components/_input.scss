@@ -1,0 +1,29 @@
+.c-input {
+    background-color: $white;
+    border: none;
+    border-radius: $border-radius;
+    font-size: $font-size-5;
+    font-style: italic;
+    font-weight: 700;
+    line-height: $line-height-sm;
+    padding: 1rem 1.25rem;
+    outline: none;
+
+    &::placeholder {
+        color: $gray-muted;
+    }
+    
+    &::-moz-placeholder {
+        color: $gray-muted;
+        opacity: 1;
+    }
+
+    &:-ms-placeholder {
+        color: $gray-muted;
+    }
+
+    &--newsletter {
+        border-radius: $border-radius 0 0 $border-radius;
+        padding: .7rem 1.5rem;
+    }
+}

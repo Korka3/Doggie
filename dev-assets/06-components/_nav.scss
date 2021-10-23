@@ -1,0 +1,27 @@
+.c-nav {
+  &__item {
+    color: $black;
+    display: inline;
+    font-size: $font-size-6;
+    font-weight: bold;
+    padding: $grid-base * 2.5 $grid-base * 0.5 $grid-base * 2.5 $grid-base * 3.5;
+
+    text-align: center;
+    line-height: $line-height-sm;
+    width: 100%;
+
+    &:hover {
+      text-decoration: revert;
+      color: $gray-dark;
+      transition-duration: 0.4s;
+    }
+  }
+
+  &__unfold-menu {
+    display: inline-flex;
+  }
+
+  &__unfold-item {
+    left: 5px;
+  }
+}

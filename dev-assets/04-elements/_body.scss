@@ -1,0 +1,12 @@
+body {
+  background-image: url("../images/background.jpg");
+  background-color: $gray-light;
+  background-position: center -67px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: $gray-dark;
+  font-family: "Roboto", sans-serif;
+  font-size: $font-size-5;
+  margin: 0;
+  padding: 0;
+}
