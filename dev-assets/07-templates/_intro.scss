@@ -1,0 +1,10 @@
+.t-intro {
+  &__container {
+    background-color: $primary;
+    border-radius: $grid-base * 4;
+    padding-top: $grid-base * 10;
+    padding-right: $grid-base * 9;
+    padding-left: $grid-base * 9;
+    margin-top: -15px;
+  }
+}

@@ -1,7 +1,11 @@
 .c-label {
-    display: block;
-    font-size: $font-size-6;
-    font-weight: bold;
-    margin-bottom: $grid-base * 1.5;
+  display: flex;
+  align-items: center;
+
+  &__text {
+    color: $gray-light;
+    font-size: $font-size-7;
+    font-weight: 700;
     text-transform: uppercase;
+  }
 }

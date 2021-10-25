@@ -1,9 +1,27 @@
 .t-site-header {
-  background-image: url("../images/background.jpg");
-  background-position: center -67px;
-  background-size: cover;
-  background-repeat: no-repeat;
-  min-height: 720px;
+  min-height: 1049px;
+  position: relative;
+  z-index: -1;
+
+  &::before {
+    content: "";
+    display: block;
+    background-image: url("../images/background.jpg");
+    background-position: center top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: -$grid-base * 8;
+    top: 0;
+    z-index: -2;
+  }
+
+  &__container {
+    position: relative;
+    z-index: 0;
+  }
 
   &__logo {
     height: 43px;
