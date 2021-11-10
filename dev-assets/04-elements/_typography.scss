@@ -1,7 +1,8 @@
 p {
   font-size: $font-size-5;
   font-weight: 400;
-  line-height: $line-height-base;
+  line-height: 24px;
+  letter-spacing: 0.15px;
   margin: 0;
   margin-bottom: $grid-base;
 }

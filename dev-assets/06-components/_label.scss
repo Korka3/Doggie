@@ -1,11 +1,13 @@
 .c-label {
   display: flex;
   align-items: center;
+  //margin: $grid-base * 10;
 
   &__text {
     color: $gray-light;
     font-size: $font-size-7;
     font-weight: 700;
+    letter-spacing: $letter-spacing-1;
     text-transform: uppercase;
   }
 }

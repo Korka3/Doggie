@@ -1,10 +1,40 @@
 .t-intro {
-  &__container {
+  &__container::before {
+    content: "";
+    height: 720px;
     background-color: $primary;
     border-radius: $grid-base * 4;
+    //padding-top: $grid-base * 10;
+    //padding-right: $grid-base * 8;
+    //padding-left: $grid-base * 8;
+
+    position: absolute;
+    width: 1020px;
+    z-index: -1;
+  }
+
+  &__container--inside {
     padding-top: $grid-base * 10;
     padding-right: $grid-base * 9;
     padding-left: $grid-base * 9;
-    margin-top: -15px;
+  }
+
+  p {
+    color: $white;
+
+    text-align: justify;
+  }
+
+  &__stylize--1::after {
+    content: "";
+
+    background-image: url("/images/stylize-1.svg");
+    height: 317px;
+    right: $grid-base * 5;
+    margin-top: -$grid-base * 10;
+    position: absolute;
+    width: 201px;
+    z-index: 2;
+    //przeniesc na lewą stronę??
   }
 }
