@@ -2,6 +2,10 @@
   padding-left: $gutter;
   padding-right: $gutter;
 
+  &--no-padding {
+    padding: 0;
+  }
+
   &--md25 {
     @include medium-up {
       flex: 0 0 25%;

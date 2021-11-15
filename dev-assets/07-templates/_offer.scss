@@ -3,12 +3,9 @@
     justify-content: space-between;
   }
 
-  //&__col {
-  //padding: 0;
-  //}
-
   &__icon {
     width: 63px;
     height: 63px;
+    max-width: none;
   }
 }

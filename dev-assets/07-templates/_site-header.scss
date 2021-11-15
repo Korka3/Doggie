@@ -1,7 +1,7 @@
 .t-site-header {
-  min-height: 1049px;
+  min-height: 720px;
   position: relative;
-  z-index: -1;
+  z-index: 1;
 
   &::before {
     content: "";
@@ -15,7 +15,7 @@
     right: 0;
     bottom: -$grid-base * 8;
     top: 0;
-    z-index: -2;
+    z-index: -1;
   }
 
   &__container {

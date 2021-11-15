@@ -1,17 +1,23 @@
 .t-intro {
-  //background-color: $gray-light;
+  position: relative;
+  z-index: 2;
 
-  &__container::before {
-    content: "";
-    height: 720px;
+  &__container {
     background-color: $primary;
     border-radius: $grid-base * 4;
-    //padding-top: $grid-base * 10;
-    //padding-right: $grid-base * 8;
-    //padding-left: $grid-base * 8;
-    position: absolute;
-    width: 1020px;
-    z-index: -1;
+    position: relative;
+    z-index: 1;
+
+    &::after {
+      content: "";
+      background-image: url("/images/stylize-1.svg");
+      width: 201px;
+      height: 317px;
+      position: absolute;
+      right: -79px;
+      top: -108px;
+      z-index: 2;
+    }
   }
 
   &__container--inside {
@@ -23,17 +29,6 @@
   p {
     color: $white;
     text-align: justify;
-  }
-
-  &__stylize--1::after {
-    content: "";
-    background-image: url("/images/stylize-1.svg");
-    height: 317px;
-    right: 41px;
-    margin-top: -$grid-base * 10;
-    position: absolute;
-    width: 201px;
-    z-index: 2;
   }
 
   &__stylize--2::before {
