@@ -141,7 +141,13 @@ a {
     font-weight: 900;
     line-height: 1.2;
     margin-top: 30px;
-    margin-bottom: 45px; }
+    margin-bottom: 70px; }
+  .c-heading--level3 {
+    color: #f2726f;
+    font-size: 1.1875rem;
+    font-weight: 900;
+    margin-bottom: 30px;
+    line-height: 26px; }
 
 .c-input {
   background-color: #ffffff;
@@ -169,6 +175,12 @@ a {
   align-items: center; }
   .c-label__text {
     color: #f5f5f5;
+    font-size: 0.75rem;
+    font-weight: 700;
+    letter-spacing: 0.0625rem;
+    text-transform: uppercase; }
+  .c-label__text--2 {
+    color: #5d62b5;
     font-size: 0.75rem;
     font-weight: 700;
     letter-spacing: 0.0625rem;
@@ -216,7 +228,7 @@ a {
   content: "";
   background-image: url("/images/stylize-1.svg");
   height: 317px;
-  right: 50px;
+  right: 41px;
   margin-top: -100px;
   position: absolute;
   width: 201px;
@@ -235,10 +247,19 @@ a {
 
 .t-intro__photo {
   border-radius: 50px;
+  box-shadow: 0px 16px 24px 0px #26262633;
+  box-shadow: 0px 8px 16px 0px #2626263d;
   display: block;
-  margin: 60px auto 0 auto;
+  margin: 60px auto 100px auto;
   width: 846px;
   z-index: 4; }
+
+.t-offer___box {
+  justify-content: space-between; }
+
+.t-offer__icon {
+  width: 63px;
+  height: 63px; }
 
 .t-site-header {
   min-height: 1049px;
@@ -332,6 +353,9 @@ a {
 
 .u-accent {
   color: #f2726f; }
+
+.u-black {
+  color: #000000; }
 
 .u-mb-1 {
   margin-bottom: 10px; }

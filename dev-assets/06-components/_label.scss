@@ -10,4 +10,14 @@
     letter-spacing: $letter-spacing-1;
     text-transform: uppercase;
   }
+  &__text--2 {
+    color: $primary;
+    font-size: $font-size-7;
+    font-weight: 700;
+    letter-spacing: $letter-spacing-1;
+    text-transform: uppercase;
+  }
+
+  //&__icon {
+  //}
 }
