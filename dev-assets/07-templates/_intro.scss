@@ -5,6 +5,9 @@
   &__container {
     background-color: $primary;
     border-radius: $grid-base * 4;
+    margin-bottom: 197px;
+    min-height: 700px;
+
     position: relative;
     z-index: 1;
 
@@ -16,6 +19,18 @@
       position: absolute;
       right: -79px;
       top: -108px;
+      z-index: 2;
+    }
+
+    &::before {
+      content: "";
+      background-image: url("/images/blob.svg");
+      background-repeat: no-repeat;
+      height: 371.25px;
+      width: 553.25px;
+      position: absolute;
+      top: 368px;
+      left: 70px;
       z-index: 2;
     }
   }
@@ -31,38 +46,14 @@
     text-align: justify;
   }
 
-  &__stylize--2::before {
-    content: "";
-    background-image: url("/images/blob.svg");
-    background-repeat: no-repeat;
-    //box-shadow: 13px 10px 181px 15px rgba(0, 0, 0, 0.6) inset;
-    //-webkit-box-shadow: 13px 10px 181px 15px rgba(0, 0, 0, 0.6) inset;
-    //-moz-box-shadow: 13px 10px 181px 15px rgba(0, 0, 0, 0.6) inset;
-    // NIE WIEM JAK ZROBIC CIENIE SAMEGO ELEMENTU - dwa cienie jeden od srodka a drugi maskujacy krawiedzie?
-    //box-shadow: 0px 16px 32px 0px rgba(0, 0, 0, 0.16) inset;
-    //box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.12) inset;
-    //box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.12) inset;
-    //box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.12) inset;
-
-    height: 371.25px;
-    //left: $grid-base * 5;
-    margin-top: 8px;
-    margin-left: 62px;
-
-    width: 553.25px;
-    position: absolute;
-    z-index: -1;
-  }
-
   &__photo {
+    height: 420px;
+    width: 846px;
     border-radius: 50px;
     box-shadow: 0px 16px 24px 0px #26262633;
-    box-shadow: 0px 8px 16px 0px #2626263d;
-    display: block;
-    margin: $grid-base * 6 auto $grid-base * 10 auto;
-    //margin-left: auto;
-    //margin-right: auto;
-    width: 846px;
+    left: 99px;
+    position: absolute;
+    top: 409px;
     z-index: 4;
   }
 }

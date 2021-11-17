@@ -80,15 +80,13 @@ a {
 .o-container {
   margin-left: auto;
   margin-right: auto;
-  padding-left: 15px;
-  padding-right: 15px;
   width: 100%; }
   @media (min-width: 800px) {
     .o-container {
       max-width: 740px; } }
   @media (min-width: 1200px) {
     .o-container {
-      max-width: 1080px; } }
+      max-width: 1020px; } }
 
 .o-row {
   display: flex;
@@ -99,6 +97,12 @@ a {
       flex-direction: row; } }
   .o-row--center-y {
     align-items: center; }
+  .o-row--gutter-0 {
+    margin-left: 0px;
+    margin-right: 0px; }
+    .o-row--gutter-0 .o-col {
+      padding-left: 0;
+      padding-right: 0; }
 
 .c-btn {
   background-color: #f2726f;
@@ -142,8 +146,7 @@ a {
     font-size: 2.25rem;
     font-weight: 900;
     line-height: 1.2;
-    margin-top: 30px;
-    margin-bottom: 70px; }
+    margin: 30px 0 45px 0; }
   .c-heading--level3 {
     color: #f2726f;
     font-size: 1.1875rem;
@@ -214,6 +217,8 @@ a {
   .t-intro__container {
     background-color: #5d62b5;
     border-radius: 40px;
+    margin-bottom: 197px;
+    min-height: 700px;
     position: relative;
     z-index: 1; }
     .t-intro__container::after {
@@ -225,6 +230,16 @@ a {
       right: -79px;
       top: -108px;
       z-index: 2; }
+    .t-intro__container::before {
+      content: "";
+      background-image: url("/images/blob.svg");
+      background-repeat: no-repeat;
+      height: 371.25px;
+      width: 553.25px;
+      position: absolute;
+      top: 368px;
+      left: 70px;
+      z-index: 2; }
   .t-intro__container--inside {
     padding-top: 100px;
     padding-right: 90px;
@@ -232,32 +247,31 @@ a {
   .t-intro p {
     color: #ffffff;
     text-align: justify; }
-  .t-intro__stylize--2::before {
-    content: "";
-    background-image: url("/images/blob.svg");
-    background-repeat: no-repeat;
-    height: 371.25px;
-    margin-top: 8px;
-    margin-left: 62px;
-    width: 553.25px;
-    position: absolute;
-    z-index: -1; }
   .t-intro__photo {
+    height: 420px;
+    width: 846px;
     border-radius: 50px;
     box-shadow: 0px 16px 24px 0px #26262633;
-    box-shadow: 0px 8px 16px 0px #2626263d;
-    display: block;
-    margin: 60px auto 100px auto;
-    width: 846px;
+    left: 99px;
+    position: absolute;
+    top: 409px;
     z-index: 4; }
 
 .t-offer___box {
   justify-content: space-between; }
 
+.t-offer__box--text {
+  padding-left: 25px; }
+
 .t-offer__icon {
   width: 63px;
   height: 63px;
   max-width: none; }
+
+.t-offer_label--icon {
+  width: 26.53px;
+  height: 26.47px;
+  margin-left: -4px; }
 
 .t-site-header {
   min-height: 720px;

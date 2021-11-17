@@ -1,7 +1,6 @@
 .c-label {
   display: flex;
   align-items: center;
-  //margin: $grid-base * 10;
 
   &__text {
     color: $gray-light;
@@ -17,7 +16,4 @@
     letter-spacing: $letter-spacing-1;
     text-transform: uppercase;
   }
-
-  //&__icon {
-  //}
 }

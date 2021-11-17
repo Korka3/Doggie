@@ -3,9 +3,19 @@
     justify-content: space-between;
   }
 
+  &__box--text {
+    padding-left: $grid-base * 2.5;
+  }
+
   &__icon {
     width: 63px;
     height: 63px;
     max-width: none;
+  }
+
+  &_label--icon {
+    width: 26.53px;
+    height: 26.47px;
+    margin-left: -4px;
   }
 }
