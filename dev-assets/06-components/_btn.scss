@@ -34,4 +34,13 @@
     filter: drop-shadow(0px 8px 16px rgba(38, 38, 38, 0.24))
       drop-shadow(0px 16px 24px rgba(38, 38, 38, 0.2));
   }
+
+  &__services {
+    width: 124px;
+    height: 48px;
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+    padding: $grid-base * 1.1 1rem;
+  }
 }
