@@ -275,7 +275,8 @@ a {
 
 .t-offer__banner {
   min-height: 500px;
-  padding-top: 100px; }
+  padding-top: 100px;
+  margin-bottom: 300px; }
   .t-offer__banner::before {
     content: "";
     display: block;
@@ -285,7 +286,7 @@ a {
     left: 0;
     right: 0;
     width: 1579px;
-    height: 500px;
+    height: 555px;
     position: absolute;
     z-index: -1; }
 
