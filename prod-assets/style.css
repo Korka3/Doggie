@@ -273,6 +273,28 @@ a {
   height: 26.47px;
   margin-left: -4px; }
 
+.t-offer__banner {
+  min-height: 500px;
+  padding-top: 100px; }
+  .t-offer__banner::before {
+    content: "";
+    display: block;
+    background-image: url("/images/offer_bannerJPG.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    left: 0;
+    right: 0;
+    width: 1579px;
+    height: 500px;
+    position: absolute;
+    z-index: -1; }
+
+.t-offer__banner--right {
+  padding-left: 602px;
+  padding-right: 227px;
+  padding-top: 94px;
+  position: absolute; }
+
 .t-site-header {
   min-height: 720px;
   position: relative;

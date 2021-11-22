@@ -18,4 +18,30 @@
     height: 26.47px;
     margin-left: -4px;
   }
+  &__banner {
+    min-height: 500px;
+    padding-top: 100px;
+
+    &::before {
+      content: "";
+      display: block;
+      background-image: url("/images/offer_bannerJPG.jpg");
+      background-repeat: no-repeat;
+
+      background-size: cover;
+
+      left: 0;
+      right: 0;
+      width: 1579px;
+      height: 500px;
+      position: absolute;
+      z-index: -1;
+    }
+  }
+  &__banner--right {
+    padding-left: $grid-base * 60.2;
+    padding-right: $grid-base * 22.7;
+    padding-top: $grid-base * 9.4;
+    position: absolute;
+  }
 }
