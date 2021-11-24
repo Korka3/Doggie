@@ -35,6 +35,13 @@
       drop-shadow(0px 16px 24px rgba(38, 38, 38, 0.2));
   }
 
+  &_offer {
+    max-height: $grid-base * 4.8;
+    max-width: $grid-base * 2.1;
+    padding: $grid-base * 1.4 4rem;
+    text-align: center;
+  }
+
   &__services {
     width: 124px;
     height: 48px;

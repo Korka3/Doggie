@@ -33,16 +33,15 @@
 
       left: 0;
       right: 0;
-      width: 1898px;
-      height: 659px;
+      width: 1579px;
+      height: 550px;
       position: absolute;
       z-index: -1;
     }
-  }
-  &__banner--right {
-    padding-left: $grid-base * 60.2;
-    padding-right: $grid-base * 22.7;
-    padding-top: $grid-base * 9.4;
-    position: absolute;
+    &__banner--right {
+      padding-right: $grid-base * 8.4;
+      padding-top: $grid-base * 9.4;
+      position: relative;
+    }
   }
 }
