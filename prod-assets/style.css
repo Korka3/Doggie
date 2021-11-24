@@ -304,17 +304,32 @@ a {
     padding-top: 94px;
     position: relative; }
 
-.t-services__box {
-  background-color: #ffffff;
-  border-radius: 20px;
-  display: block;
-  margin-bottom: 24px;
-  padding: 50px 44px 50px 43px;
-  text-align: center; }
-  .t-services__box:hover {
-    box-shadow: 0px 16px 24px 0px #26262633;
-    text-decoration: none;
-    transition-duration: 0.5s; }
+.t-services {
+  position: relative; }
+  .t-services::before {
+    content: "";
+    display: block;
+    background-image: url("/images/services_blob.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    right: -311px;
+    height: 552.25px;
+    top: -150px;
+    width: 614.25px;
+    position: absolute;
+    transform: rotate(-90deg);
+    z-index: -2; }
+  .t-services__box {
+    background-color: #ffffff;
+    border-radius: 20px;
+    display: block;
+    margin-bottom: 24px;
+    padding: 50px 44px 50px 43px;
+    text-align: center; }
+    .t-services__box:hover {
+      box-shadow: 0px 16px 24px 0px #26262633;
+      text-decoration: none;
+      transition-duration: 0.5s; }
 
 .t-site-header {
   min-height: 720px;

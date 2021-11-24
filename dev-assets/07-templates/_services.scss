@@ -1,4 +1,21 @@
 .t-services {
+  position: relative;
+  &::before {
+    content: "";
+    display: block;
+    background-image: url("/images/services_blob.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    //left: 0;
+    right: -311px;
+    height: 552.25px;
+    top: -150px;
+    width: 614.25px;
+    position: absolute;
+    transform: rotate(-90deg);
+    z-index: -2;
+  }
+
   &__box {
     background-color: $white;
     border-radius: 20px;
