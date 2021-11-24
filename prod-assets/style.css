@@ -295,12 +295,12 @@ a {
     background-size: cover;
     left: 0;
     right: 0;
-    width: 1579px;
     height: 550px;
     position: absolute;
     z-index: -1; }
   .t-offer__banner__banner--right {
-    padding-right: 84px;
+    padding-left: 133px;
+    padding-right: 91px;
     padding-top: 94px;
     position: relative; }
 
