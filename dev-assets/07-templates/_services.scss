@@ -6,7 +6,6 @@
     background-image: url("/images/services_blob.svg");
     background-repeat: no-repeat;
     background-size: cover;
-    //left: 0;
     right: -311px;
     height: 552.25px;
     top: -150px;
@@ -20,7 +19,7 @@
     background-color: $white;
     border-radius: 20px;
     display: block;
-    margin-bottom: $grid-base * 2.4;
+    height: 100%;
     padding: 50px 44px 50px 43px;
     text-align: center;
 
