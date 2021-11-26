@@ -162,25 +162,24 @@ a {
     line-height: 26px; }
 
 .c-input {
-  background-color: #ffffff;
-  border: none;
-  border-radius: 5px;
+  background-color: #5d62b5;
+  border-color: #ffffff;
+  border-style: solid;
+  border-radius: 10px;
+  margin-bottom: 17px;
   font-size: 1rem;
-  font-style: italic;
-  font-weight: 700;
-  line-height: 1.375;
-  padding: 1rem 1.25rem;
-  outline: none; }
+  font-weight: 400;
+  line-height: 1.5;
+  padding: 1rem 1.25rem; }
   .c-input::placeholder {
-    color: #1f1768; }
+    color: #ffffff; }
   .c-input::-moz-placeholder {
-    color: #1f1768;
+    color: #ffffff;
     opacity: 1; }
   .c-input:-ms-placeholder {
-    color: #1f1768; }
-  .c-input--newsletter {
-    border-radius: 5px 0 0 5px;
-    padding: .7rem 1.5rem; }
+    color: #ffffff; }
+  .c-input__appo--large {
+    width: 100%; }
 
 .c-label {
   display: flex;
@@ -217,6 +216,19 @@ a {
 
 .c-nav__unfold-item {
   left: 5px; }
+
+.t-appo {
+  background-image: url("/images/appo_background.png");
+  margin-top: 70px;
+  position: relative;
+  min-height: 1262px; }
+  .t-appo__form {
+    background-color: #5d62b5;
+    border-radius: 40px;
+    max-width: 585px;
+    max-height: 640px;
+    padding: 18px 39.56px;
+    position: absolute; }
 
 .t-intro {
   position: relative;

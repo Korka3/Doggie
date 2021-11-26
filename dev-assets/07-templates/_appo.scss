@@ -1,0 +1,17 @@
+.t-appo {
+  background-image: url("/images/appo_background.png");
+  margin-top: $grid-base * 7;
+  position: relative;
+  min-height: 1262px;
+
+  &__form {
+    background-color: $primary;
+    border-radius: 40px;
+
+    max-width: 585px;
+    max-height: 640px;
+
+    padding: 18px 39.56px;
+    position: absolute;
+  }
+}

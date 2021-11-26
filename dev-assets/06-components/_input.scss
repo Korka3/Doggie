@@ -1,29 +1,28 @@
 .c-input {
-    background-color: $white;
-    border: none;
-    border-radius: $border-radius;
-    font-size: $font-size-5;
-    font-style: italic;
-    font-weight: 700;
-    line-height: $line-height-sm;
-    padding: 1rem 1.25rem;
-    outline: none;
+  background-color: $primary;
+  border-color: $white;
+  border-style: solid;
+  border-radius: $border-radius * 2;
+  margin-bottom: $grid-base * 1.7;
+  font-size: $font-size-5;
+  font-weight: 400;
+  line-height: $line-height-base;
+  padding: 1rem 1.25rem;
 
-    &::placeholder {
-        color: $gray-muted;
-    }
-    
-    &::-moz-placeholder {
-        color: $gray-muted;
-        opacity: 1;
-    }
+  &::placeholder {
+    color: $white;
+  }
 
-    &:-ms-placeholder {
-        color: $gray-muted;
-    }
+  &::-moz-placeholder {
+    color: $white;
+    opacity: 1;
+  }
 
-    &--newsletter {
-        border-radius: $border-radius 0 0 $border-radius;
-        padding: .7rem 1.5rem;
-    }
+  &:-ms-placeholder {
+    color: $white;
+  }
+
+  &__appo--large {
+    width: 100%;
+  }
 }
