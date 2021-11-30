@@ -3,15 +3,33 @@
   margin-top: $grid-base * 7;
   position: relative;
   min-height: 1262px;
+  padding-top: 139px;
 
   &__form {
     background-color: $primary;
     border-radius: 40px;
-
     max-width: 585px;
     max-height: 640px;
-
     padding: 18px 39.56px;
+  }
+
+  &__box-info {
     position: absolute;
+    align-items: center;
+    p {
+      color: $white;
+      font-weight: 900;
+      text-align: center;
+
+      &--1 {
+        font-size: $font-size-3;
+      }
+      &--2 {
+        font-size: 96px;
+      }
+      &--3 {
+        font-size: $font-size-4;
+      }
+    }
   }
 }

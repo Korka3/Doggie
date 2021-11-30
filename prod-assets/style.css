@@ -140,6 +140,9 @@ a {
     text-align: center; }
   .c-btn__services {
     padding: 11px 1rem; }
+  .c-btn__appo {
+    padding: 11px 1rem;
+    margin-bottom: 30px; }
 
 .c-heading {
   color: #ffffff; }
@@ -163,14 +166,18 @@ a {
 
 .c-input {
   background-color: #5d62b5;
-  border-color: #ffffff;
-  border-style: solid;
+  border: 2px solid #ffffff;
   border-radius: 10px;
-  margin-bottom: 17px;
+  color: #ffffff;
+  margin-bottom: 21px;
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
-  padding: 1rem 1.25rem; }
+  outline: none;
+  padding: 1rem 1.25rem;
+  width: 100%; }
+  .c-input:focus {
+    border: 2px solid #29c3be; }
   .c-input::placeholder {
     color: #ffffff; }
   .c-input::-moz-placeholder {
@@ -179,6 +186,8 @@ a {
   .c-input:-ms-placeholder {
     color: #ffffff; }
   .c-input__appo--large {
+    font-family: inherit;
+    resize: none;
     width: 100%; }
 
 .c-label {
@@ -221,14 +230,27 @@ a {
   background-image: url("/images/appo_background.png");
   margin-top: 70px;
   position: relative;
-  min-height: 1262px; }
+  min-height: 1262px;
+  padding-top: 139px; }
   .t-appo__form {
     background-color: #5d62b5;
     border-radius: 40px;
     max-width: 585px;
     max-height: 640px;
-    padding: 18px 39.56px;
-    position: absolute; }
+    padding: 18px 39.56px; }
+  .t-appo__box-info {
+    position: absolute;
+    align-items: center; }
+    .t-appo__box-info p {
+      color: #ffffff;
+      font-weight: 900;
+      text-align: center; }
+      .t-appo__box-info p--1 {
+        font-size: 1.875rem; }
+      .t-appo__box-info p--2 {
+        font-size: 96px; }
+      .t-appo__box-info p--3 {
+        font-size: 1.1875rem; }
 
 .t-intro {
   position: relative;
