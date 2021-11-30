@@ -231,13 +231,36 @@ a {
   margin-top: 70px;
   position: relative;
   min-height: 1262px;
-  padding-top: 139px; }
+  padding-top: 139px;
+  z-index: 2; }
+  .t-appo::after {
+    content: "";
+    background-image: url("/images/stylize-1.svg");
+    width: 201px;
+    height: 317px;
+    left: 215px;
+    top: 494px;
+    position: absolute;
+    transform: rotate(180deg);
+    z-index: -1; }
+  .t-appo::before {
+    content: "";
+    background-image: url("/images/blob.svg");
+    background-repeat: no-repeat;
+    height: 371.25px;
+    width: 553.25px;
+    top: 407px;
+    left: 179px;
+    position: absolute;
+    transform: rotate(287deg);
+    z-index: -1; }
   .t-appo__form {
     background-color: #5d62b5;
     border-radius: 40px;
     max-width: 585px;
     max-height: 640px;
-    padding: 18px 39.56px; }
+    padding: 18px 39.56px;
+    z-index: 1; }
   .t-appo__box-info {
     align-items: center;
     padding-left: 120px; }
