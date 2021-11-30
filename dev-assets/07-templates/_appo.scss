@@ -14,22 +14,24 @@
   }
 
   &__box-info {
-    position: absolute;
     align-items: center;
+    padding-left: $grid-base * 12;
     p {
       color: $white;
       font-weight: 900;
       text-align: center;
-
-      &--1 {
-        font-size: $font-size-3;
-      }
-      &--2 {
-        font-size: 96px;
-      }
-      &--3 {
-        font-size: $font-size-4;
-      }
+    }
+    &--top-text {
+      font-size: $font-size-3;
+      line-height: 36px;
+    }
+    &--number {
+      font-size: 96px;
+      line-height: 56px;
+    }
+    &--bottom-text {
+      font-size: $font-size-4;
+      line-height: 26px;
     }
   }
 }

@@ -239,18 +239,21 @@ a {
     max-height: 640px;
     padding: 18px 39.56px; }
   .t-appo__box-info {
-    position: absolute;
-    align-items: center; }
+    align-items: center;
+    padding-left: 120px; }
     .t-appo__box-info p {
       color: #ffffff;
       font-weight: 900;
       text-align: center; }
-      .t-appo__box-info p--1 {
-        font-size: 1.875rem; }
-      .t-appo__box-info p--2 {
-        font-size: 96px; }
-      .t-appo__box-info p--3 {
-        font-size: 1.1875rem; }
+    .t-appo__box-info--top-text {
+      font-size: 1.875rem;
+      line-height: 36px; }
+    .t-appo__box-info--number {
+      font-size: 96px;
+      line-height: 56px; }
+    .t-appo__box-info--bottom-text {
+      font-size: 1.1875rem;
+      line-height: 26px; }
 
 .t-intro {
   position: relative;
@@ -469,6 +472,9 @@ a {
 
 .u-mb-3 {
   margin-bottom: 30px; }
+
+.u-mb-5 {
+  margin-bottom: 50px; }
 
 .u-text-center {
   text-align: center; }
