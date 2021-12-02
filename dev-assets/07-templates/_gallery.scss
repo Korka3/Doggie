@@ -11,12 +11,16 @@
   }
 
   &__tab-item {
+    color: $white;
+    display: block;
     text-align: center;
     position: relative;
     padding-bottom: $grid-base;
 
-    p {
-      margin-bottom: 0;
+    &:hover {
+      color: $green;
+      text-decoration: none;
+      transition: 0.5s;
     }
 
     &::before {
@@ -36,6 +40,7 @@
       border-width: 3px;
       opacity: 100%;
       bottom: -1px;
+      font-size: 700;
     }
   }
 

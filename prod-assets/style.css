@@ -289,11 +289,15 @@ a {
   position: relative; }
 
 .t-gallery__tab-item {
+  color: #ffffff;
+  display: block;
   text-align: center;
   position: relative;
   padding-bottom: 10px; }
-  .t-gallery__tab-item p {
-    margin-bottom: 0; }
+  .t-gallery__tab-item:hover {
+    color: #29c3be;
+    text-decoration: none;
+    transition: 0.5s; }
   .t-gallery__tab-item::before {
     content: "";
     border-bottom: solid 1px #ffffff;
@@ -306,7 +310,8 @@ a {
 .t-gallery--active:before {
   border-width: 3px;
   opacity: 100%;
-  bottom: -1px; }
+  bottom: -1px;
+  font-size: 700; }
 
 .t-gallery__icon-live::after {
   content: "";
