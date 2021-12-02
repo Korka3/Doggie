@@ -1,0 +1,60 @@
+.t-gallery {
+  &__container--inside {
+    background-color: $primary;
+    border-radius: 40px;
+    color: $white;
+    min-height: 700px;
+    padding-top: $grid-base * 10;
+    padding-right: $grid-base * 9;
+    padding-left: $grid-base * 9;
+    position: relative;
+  }
+
+  &__tab-item {
+    text-align: center;
+    position: relative;
+    padding-bottom: $grid-base;
+
+    p {
+      margin-bottom: 0;
+    }
+
+    &::before {
+      content: "";
+      border-bottom: solid 1px $white;
+      display: block;
+
+      opacity: 15%;
+      position: absolute;
+      bottom: 0;
+      width: 100%;
+    }
+  }
+
+  &--active {
+    &:before {
+      border-width: 3px;
+      opacity: 100%;
+      bottom: -1px;
+    }
+  }
+
+  &__icon-live {
+    &::after {
+      content: "";
+      background-color: $green-2;
+      border-radius: 50px;
+      display: inline-block;
+      margin-bottom: $grid-base;
+      margin-left: 2px;
+      width: 6px;
+      height: 6px;
+    }
+
+    &--off {
+      &::after {
+        background-color: $gray-light;
+      }
+    }
+  }
+}

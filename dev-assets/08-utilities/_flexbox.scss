@@ -17,3 +17,13 @@
 .u-flex-stretch {
   align-items: stretch; //wyrównuje wysokość elementów
 }
+
+.u-flex-grow {
+  &--1 {
+    flex-grow: 1; //np proporcjonlana maksymalna szerokośc kolumny x1  x2 itd
+  }
+
+  &--2 {
+    flex-grow: 2;
+  }
+}
