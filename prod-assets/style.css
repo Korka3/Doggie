@@ -347,6 +347,18 @@ a {
   top: 318px;
   left: auto; }
 
+.t-impact {
+  background-color: #29c3be;
+  margin-top: 210px;
+  position: relative;
+  padding-top: 111px; }
+  .t-impact__img {
+    border-radius: 40px;
+    max-width: 498px;
+    max-height: 315px;
+    position: absolute;
+    top: -80px; }
+
 .t-intro {
   position: relative;
   z-index: 2; }
@@ -619,3 +631,12 @@ a {
 
 .u-mt-3 {
   margin-top: 30px; }
+
+.u-pr-1 {
+  padding-right: 10px; }
+
+.u-pr-2 {
+  padding-right: 20px; }
+
+.u-pr-3 {
+  padding-right: 30px; }
