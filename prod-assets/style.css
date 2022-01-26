@@ -358,6 +358,17 @@ a {
     max-height: 315px;
     position: absolute;
     top: -80px; }
+  .t-impact__box {
+    max-width: 237px;
+    max-height: 76px;
+    display: block; }
+    .t-impact__box--number {
+      font-size: 2.25rem;
+      color: #ffffff;
+      font-weight: bold; }
+    .t-impact__box--text {
+      font-size: 1rem;
+      color: #5d62b5; }
 
 .t-intro {
   position: relative;
