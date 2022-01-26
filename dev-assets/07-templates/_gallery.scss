@@ -4,6 +4,7 @@
     border-radius: 40px;
     color: $white;
     min-height: 700px;
+    margin-bottom: 100px;
     padding-top: $grid-base * 10;
     padding-right: $grid-base * 9;
     padding-left: $grid-base * 9;
@@ -40,7 +41,6 @@
       border-width: 3px;
       opacity: 100%;
       bottom: -1px;
-      font-size: 700;
     }
   }
 
@@ -61,5 +61,19 @@
         background-color: $gray-light;
       }
     }
+
+    //&--active {
+    // font-size: 700;
+    //}
+  }
+
+  &__img {
+    border-radius: 20px;
+    width: 846px;
+    height: 480px;
+    position: absolute;
+    z-index: 3;
+    top: 318px;
+    left: auto;
   }
 }

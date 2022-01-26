@@ -278,11 +278,22 @@ a {
       font-size: 1.1875rem;
       line-height: 26px; }
 
+.t-customers {
+  padding-top: 100px; }
+  .t-customers__person {
+    padding-top: 10px; }
+  .t-customers__photo {
+    border-radius: 50px;
+    margin-right: 10px; }
+  .t-customers p {
+    margin: 0; }
+
 .t-gallery__container--inside {
   background-color: #5d62b5;
   border-radius: 40px;
   color: #ffffff;
   min-height: 700px;
+  margin-bottom: 100px;
   padding-top: 100px;
   padding-right: 90px;
   padding-left: 90px;
@@ -310,8 +321,7 @@ a {
 .t-gallery--active:before {
   border-width: 3px;
   opacity: 100%;
-  bottom: -1px;
-  font-size: 700; }
+  bottom: -1px; }
 
 .t-gallery__icon-live::after {
   content: "";
@@ -325,6 +335,15 @@ a {
 
 .t-gallery__icon-live--off::after {
   background-color: #f5f5f5; }
+
+.t-gallery__img {
+  border-radius: 20px;
+  width: 846px;
+  height: 480px;
+  position: absolute;
+  z-index: 3;
+  top: 318px;
+  left: auto; }
 
 .t-intro {
   position: relative;

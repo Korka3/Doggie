@@ -6,6 +6,10 @@
   text-align: right;
 }
 
+//.u-text-top {
+// text-align: top;
+//}
+
 .u-text-lg-right {
   @include large-up {
     text-align: right !important;

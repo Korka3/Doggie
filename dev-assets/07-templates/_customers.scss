@@ -1,0 +1,15 @@
+.t-customers {
+  padding-top: 100px;
+
+  &__person {
+    padding-top: 10px;
+  }
+
+  &__photo {
+    border-radius: 50px;
+    margin-right: 10px;
+  }
+  p {
+    margin: 0;
+  }
+}
