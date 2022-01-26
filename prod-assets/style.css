@@ -279,7 +279,7 @@ a {
       line-height: 26px; }
 
 .t-customers {
-  padding-top: 100px; }
+  padding-top: 50px; }
   .t-customers__person {
     padding-top: 10px; }
   .t-customers__photo {
@@ -297,7 +297,9 @@ a {
   padding-top: 100px;
   padding-right: 90px;
   padding-left: 90px;
-  position: relative; }
+  position: relative;
+  top: -93px;
+  z-index: 2; }
 
 .t-gallery__tab-item {
   color: #ffffff;
@@ -608,3 +610,12 @@ a {
 
 .u-mb-5 {
   margin-bottom: 50px; }
+
+.u-mt-1 {
+  margin-top: 10px; }
+
+.u-mt-2 {
+  margin-top: 20px; }
+
+.u-mt-3 {
+  margin-top: 30px; }

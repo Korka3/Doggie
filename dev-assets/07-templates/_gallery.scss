@@ -9,6 +9,8 @@
     padding-right: $grid-base * 9;
     padding-left: $grid-base * 9;
     position: relative;
+    top: -93px;
+    z-index: 2;
   }
 
   &__tab-item {
