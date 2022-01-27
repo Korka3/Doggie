@@ -349,22 +349,36 @@ a {
   background-color: #29c3be;
   margin-top: 210px;
   position: relative;
-  padding-top: 111px; }
+  padding-top: 111px;
+  padding-bottom: 170px; }
   .t-impact__img {
     border-radius: 40px;
     position: relative;
     top: -178px; }
   .t-impact__box {
     max-width: 237px;
-    max-height: 76px;
-    display: block; }
+    max-height: 76px; }
     .t-impact__box--number {
       font-size: 2.25rem;
       color: #ffffff;
       font-weight: bold; }
     .t-impact__box--text {
+      color: #5d62b5;
       font-size: 1rem;
-      color: #5d62b5; }
+      font-weight: 700; }
+  .t-impact__contener--inside {
+    background-color: #5d62b5;
+    border-radius: 20px;
+    color: #ffffff;
+    min-height: 150px;
+    padding: 43px 76px 46px 70px;
+    position: relative;
+    top: 102px;
+    z-index: 2; }
+    .t-impact__contener--inside p {
+      color: #ffffff;
+      font-size: 24px;
+      font-weight: 900; }
 
 .t-intro {
   position: relative;
