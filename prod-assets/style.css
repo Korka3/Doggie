@@ -340,11 +340,9 @@ a {
 
 .t-gallery__img {
   border-radius: 20px;
-  width: 846px;
-  height: 480px;
-  position: absolute;
+  position: relative;
   z-index: 3;
-  top: 318px;
+  top: 75px;
   left: auto; }
 
 .t-impact {
@@ -354,10 +352,8 @@ a {
   padding-top: 111px; }
   .t-impact__img {
     border-radius: 40px;
-    max-width: 498px;
-    max-height: 315px;
-    position: absolute;
-    top: -80px; }
+    position: relative;
+    top: -178px; }
   .t-impact__box {
     max-width: 237px;
     max-height: 76px;
