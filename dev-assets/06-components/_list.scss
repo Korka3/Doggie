@@ -1,0 +1,14 @@
+.c-list {
+  &__unstyled {
+    list-style-type: none;
+  }
+
+  &__item--box {
+    display: -webkit-box;
+
+    p {
+      font-size: $font-size-6;
+      line-height: $line-height-lg;
+    }
+  }
+}
