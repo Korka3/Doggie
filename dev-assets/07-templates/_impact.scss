@@ -3,7 +3,6 @@
   margin-top: 210px;
   position: relative;
   padding-top: $grid-base * 11.1;
-  padding-bottom: $grid-base * 17;
 
   &__img {
     border-radius: 40px;
@@ -29,24 +28,25 @@
     }
   }
 
+  &__icon {
+    min-width: 73.17px;
+  }
+
   &__contener--inside {
     background-color: #5d62b5;
     border-radius: 20px;
     color: #ffffff;
     min-height: 150px;
-
     padding: 43px 76px 46px 70px;
-    //padding-right: 76px;
-    //padding-bottom: 46px;
-    // padding-left: 70px;
     position: relative;
-    top: 234px;
+    top: 78px;
     z-index: 2;
 
     p {
       color: $white;
       font-size: 24px;
       font-weight: 900;
+      line-height: $line-height-sm;
     }
   }
 }

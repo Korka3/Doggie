@@ -361,8 +361,7 @@ a {
   background-color: #29c3be;
   margin-top: 210px;
   position: relative;
-  padding-top: 111px;
-  padding-bottom: 170px; }
+  padding-top: 111px; }
   .t-impact__img {
     border-radius: 40px;
     position: relative;
@@ -378,6 +377,8 @@ a {
       color: #5d62b5;
       font-size: 1rem;
       font-weight: 700; }
+  .t-impact__icon {
+    min-width: 73.17px; }
   .t-impact__contener--inside {
     background-color: #5d62b5;
     border-radius: 20px;
@@ -385,12 +386,13 @@ a {
     min-height: 150px;
     padding: 43px 76px 46px 70px;
     position: relative;
-    top: 234px;
+    top: 78px;
     z-index: 2; }
     .t-impact__contener--inside p {
       color: #ffffff;
       font-size: 24px;
-      font-weight: 900; }
+      font-weight: 900;
+      line-height: 1.375; }
 
 .t-intro {
   position: relative;
