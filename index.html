@@ -14,6 +14,8 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap" rel="stylesheet">
   <link href="prod-assets/style.css" rel="stylesheet" />
+  <script src="jquery-3.6.1.min.js"></script>
+  <script src="scripts.js"></script>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>doggie</title>
@@ -50,7 +52,7 @@
                   <div class="t-site-header__box">
                     <div class="t-site-header__top-item">
                       <span class="u-text-uppercase">Zadzwoń do nas:</span>
-                      <span>12 6273 553</span>
+                      <a class="u-white" href="tel:+126273553">12 6273 553</a>
                     </div>
                   </div>
                 </div>
@@ -66,20 +68,42 @@
         <div class="t-site-header__menu u-flex-space-between">
           <div class="o-row o-row--center-y">
             <div class="o-col t-site-header__nav">
-              <nav class="c-nav">
-                <div class="c-nav__unfold-menu">
+
+              <ul class="c-nav">
+                <li class="c-nav__show-menu">
                   <a class="c-nav__item" href="#">Usługi</a>
-                  <img class="c-nav__unfold-item" src="images/unfold_icon.svg" alt="rozwiń menu" />
-                </div>
-                <a class="c-nav__item" href="#">Specjalności</a>
-                <a class="c-nav__item" href="#">Obiekty</a>
-                <a class="c-nav__item" href="#">Opinie</a>
-                <div class="c-nav__unfold-menu">
-                  <a class="c-nav__item" href="#">Sklep</a>
-                  <img class="c-nav__unfold-item" src="images/unfold_icon.svg" alt="rozwiń menu" />
-                </div>
-                <a class="c-nav__item" href="#">O nas</a>
-              </nav>
+                  <img class="c-nav__show-item" src="images/show_icon.svg" alt="rozwiń menu" />
+                  <div>
+                    <ul class=" c-list__unstyled">
+                      <li class="c-wraper c-wraper__item"><a href="#uslugi">Hotel</a></li>
+                      <li class="c-wraper c-wraper__item"><a href="#uslugi">Psi żłobek</a></li>
+                      <li class="c-wraper c-wraper__item"><a href="#uslugi">Dzienne SPA i fryzjer</a></li>
+                      <li class="c-wraper c-wraper__item"><a href="#uslugi">Indywidualne plany posiłków</a></li>
+                      <li class="c-wraper c-wraper__item"><a href="#uslugi">Szkolenia</a></li>
+                      <li class="c-wraper c-wraper__item"><a href="#uslugi">Zakupy</a></li>
+                    </ul>
+                  </div>
+
+                </li>
+              </ul>
+
+              <li><a class="c-nav__item" href="#specjalnosci">Specjalności</a></li>
+              <li><a class="c-nav__item" href="#">Obiekty</a></li>
+              <li><a class="c-nav__item" href="#opinie">Opinie</a></li>
+              <li class="c-nav__show-menu">
+                <a class="c-nav__item" href="#">Sklep</a>
+                <img class="c-nav__show-item" src="images/show_icon.svg" alt="rozwiń menu" />
+                <!-- <div>
+                  <ul class=" c-list__unstyled c-wrapper">
+                    <li class="c-wraper c-wraper__item"><a href="#">Jedzenie</a></li>
+                    <li class="c-wraper c-wraper__item"><a href="#">Akcesoria</a></li>
+
+                  </ul>
+                </div> -->
+              </li>
+              <li><a class="c-nav__item" href="#">O nas</a></li>
+              </ul>
+
             </div>
           </div>
           <div class="o-col">
@@ -95,6 +119,8 @@
           </div>
         </div>
 
+
+
         <div class="o-container">
           <div class="o-row">
             <div class="t-site header t-site-header_hero">
@@ -106,7 +132,7 @@
             </div>
           </div>
         </div>
-      </div>
+
     </header>
 
     <!--Koniec sekcji header-->
@@ -142,6 +168,7 @@
     <!--Koniec sekcji t-intro-->
 
     <section class="t-offer o-container">
+      <p><a name="specjalnosci"></a></p>
       <div class="c-label">
         <img class="t-offer_label--icon" src="images/label_icon_primary.svg">
         <span class="c-label__text--2">Oferujemy dla Ciebie</span>
@@ -218,7 +245,7 @@
         <span class="c-label__text--2">Nasze usługi</span>
       </div>
       <h2 class="c-heading--level2 u-black">Sed perspiciatis omnis iste natus</h2>
-
+      <p><a name="uslugi"></a></p>
       <div class="o-row u-mb-3 u-flex-stretch">
         <div class="o-col o-col--lg33">
           <a class="t-services__box" href="">
@@ -367,6 +394,7 @@
     </section>
     <!--Koniec sekscji Gallery-->
     <section class="t-customers o-container">
+      <p><a name="opinie"></a></p>
       <div class="o-row">
         <div class="o-col o-col--lg33">
           <div class="c-label u-mb-3">
@@ -375,6 +403,7 @@
           </div>
           <h2 class="c-heading c-heading--level2 u-black">Illum qui dolorem eum quo voluptas ut
             distinctio</h2>
+
         </div>
 
         <div class="o-col o-col--lg33">
@@ -416,7 +445,7 @@
         </div>
       </div>
     </section>
-    <!--Koniec sekcji Gallery-->
+    <!--Koniec sekcji customers-->
 
     <section class="t-impact">
       <div class="o-container">

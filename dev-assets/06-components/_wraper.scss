@@ -1,0 +1,84 @@
+.c-wraper {
+    
+    display:none;
+    justify-content: left;
+    position: absolute;
+    width: auto;
+    margin-top: 21px;
+    background: $white;
+    border-radius: 10px;
+    position: relative;
+    // padding-left: 35px;
+    // padding-top: 24px;
+    // padding-bottom: 12px;
+    padding: 18px 0px 5px 32px;
+
+    &--active {
+        display: flex;
+    }
+
+    // &--active{
+    //     display: flex;
+    // }
+
+    a 
+    {
+        color: $black;
+        display: block;
+    text-decoration: none;
+
+}
+   
+
+
+&__item { //list-style: none;
+    //color: $black;
+    cursor: pointer;
+    font-size: $font-size-6;
+    font-weight: bold;
+    list-style: none;
+    margin-top: 36px;
+    margin-bottom: -30px;
+    opacity: 80%;
+   
+    // padding-top: 10px;
+    // padding-bottom: 16px;
+    // padding-left: 10px;
+    padding: 10px 25px 16px 10px;
+    text-decoration: none;
+
+    &:hover {
+   opacity: 100%;
+   background-color: $gray-light-2;
+
+        }}}
+
+    
+
+
+
+// .c-dropdown a li {
+//     //list-style: none;
+//     color: $black;
+//     cursor: pointer;
+//     font-size: $font-size-6;
+//     font-weight: bold;
+//     list-style: none;
+//     margin-left:-7px;
+//     // padding-top: 10px;
+//     // padding-bottom: 16px;
+//     // padding-left: 10px;
+//     padding: 10px 0 16px 10px;
+//     text-decoration: none;
+   
+ 
+   
+
+// }
+// .c-dropdown a li:hover {
+//     background-color: $green;
+//     text-decoration: none;
+//     width: 240px;
+//     border-radius: 10px;
+    
+// } 

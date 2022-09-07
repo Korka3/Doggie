@@ -7,6 +7,10 @@
     line-height: $line-height-base * 0.8;
     margin-top: $grid-base * 10;
     margin-bottom: $grid-base * 4.5;
+
+    &-off {
+      display:none;
+    }
   }
 
   &--level2 {
