@@ -1,0 +1,30 @@
+.c-submenu {
+  display: none;
+  width: auto;
+
+  position: absolute;
+  z-index: 10;
+
+  a {
+    color: $black;
+    display: block;
+  }
+
+  &__item {
+    background: #ffffffe8;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: $font-size-6;
+    font-weight: bold;
+    text-decoration: none;
+    list-style: none;
+    margin-top: 36px;
+    margin-bottom: -30px;
+    padding: 14px 25px 14px 10px;
+    display: block;
+
+    &:hover {
+      background-color: $gray-light-2;
+    }
+  }
+}

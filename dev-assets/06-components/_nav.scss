@@ -4,13 +4,10 @@
     color: $black;
     font-size: $font-size-6;
     font-weight: bold;
-    padding: $grid-base * 2.5 $grid-base * 0.5 $grid-base * 2.5 $grid-base * 3.5;
-
+    padding: 55px 29px 39px 41px;
     text-align: center;
     line-height: $line-height-sm;
     width: 100%;
-
-  
 
     &:hover {
       text-decoration: revert;
@@ -20,11 +17,11 @@
   }
 
   &__show-menu {
-    
     cursor: pointer;
   }
 
   &__show-item {
-    left: 5px;
+    margin-left: -15px;
+    padding-right: 16px;
   }
 }

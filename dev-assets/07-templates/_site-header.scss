@@ -67,12 +67,14 @@
 
   &__menu {
     align-items: center;
-    background-color: $white;
-    opacity: 80%;
+    background-color: #ffffffbf;
+    
     border-radius: 10px;
     display: inline-flex;
     height: $grid-base * 6;
     width: 100%;
+    position: relative;
+    z-index: 1;
   }
 
   &__nav {
@@ -113,5 +115,9 @@
     display: block;
     max-width: 1440px;
     padding-bottom: $grid-base * 5;
+
+    &--off {
+      display:none;
+    }
   }
 }

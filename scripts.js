@@ -11,7 +11,14 @@
 //       $("c-dropdown").hide()});
 
 $(function() {
-     $(".c-nav__show-menu").on('click', function() {
-        $(".c-wraper").toggleClass("c-wraper--active")
-    });
-});
+    $(".c-nav__show-menu").on('click',function(){
+        $(this).find(".c-submenu").fadeToggle(500)
+
+
+
+    //  $(".c-nav__show-menu").on('click', function() {
+    //     $(".c-submenu").toggleClass("c-submenu--active");
+    //     $("t.site-header .t-site-header__hero").toggleClass("t-site-header__hero--off");
+    // });
+})});
+
